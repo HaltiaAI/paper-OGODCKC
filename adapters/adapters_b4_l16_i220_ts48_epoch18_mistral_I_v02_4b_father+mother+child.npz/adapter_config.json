@@ -1,0 +1,29 @@
+{
+    "adapter_path": "adapters/adapters_b4_l16_i220_ts48_epoch18_mistral_I_v02_4b_father+mother+child.npz",
+    "batch_size": 4,
+    "config": null,
+    "data": "./data/father+mother+child",
+    "grad_checkpoint": null,
+    "iters": 220,
+    "learning_rate": 1e-05,
+    "lora_layers": 16,
+    "lora_parameters": {
+        "rank": 8,
+        "alpha": 16,
+        "dropout": 0.0,
+        "scale": 10.0
+    },
+    "lr_schedule": null,
+    "max_seq_length": 2048,
+    "model": "model/Mistral-7B-Instruct-v0.2-4bit-mlx",
+    "resume_adapter_file": null,
+    "save_every": 100,
+    "seed": 0,
+    "steps_per_eval": 200,
+    "steps_per_report": 10,
+    "test": false,
+    "test_batches": 500,
+    "train": true,
+    "use_dora": false,
+    "val_batches": 25
+}

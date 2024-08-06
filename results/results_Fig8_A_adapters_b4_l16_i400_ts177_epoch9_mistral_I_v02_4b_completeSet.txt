@@ -1,0 +1,9 @@
+Results for eval_output:
+  triple_matching:
+    TP: 586
+    FP: 46
+    FN: 123
+    PRE: 0.8265162200282088
+    REC: 0.9272151898734177
+    F1: 0.8739746457867262
+

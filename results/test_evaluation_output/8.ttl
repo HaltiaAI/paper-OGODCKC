@@ -1,0 +1,12 @@
+
+@prefix : <https://know.dev/> .
+
+:Jason a :Person ;
+    :name "Jason";
+    :sex :Male ;
+    :sister :Mary .
+
+:Mary a :Person ;
+    :name "Mary";
+    :sex :Female ;
+    :brother :Jason .
