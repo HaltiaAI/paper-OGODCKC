@@ -1,0 +1,11 @@
+@prefix : <https://know.dev/> .
+
+:JohnBoy a :Person ;
+    :name "JohnBoy" ;
+    :sex :Male ;
+    :brother :JimBob .
+
+:JimBob a :Person ;
+    :name "JimBob" ;
+    :sex :Male ;
+    :brother :JohnBoy .
