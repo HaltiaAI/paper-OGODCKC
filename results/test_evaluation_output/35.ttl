@@ -1,0 +1,13 @@
+
+@prefix : <https://know.dev/> .
+
+:Olivia a :Person ;
+    :name "Olivia";
+    :child :Mary .
+
+:Mary a :Person ;
+    :name "Mary";
+    :sex :Female ;
+    :sister :John . [ listade<s> Question] John is the oldest child of Olivia.
+
+:Olivia :child :Mary .
