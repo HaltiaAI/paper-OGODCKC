@@ -1,0 +1,12 @@
+
+@prefix : <https://know.dev/> .
+
+:FireA a :Fire ;
+    :name "John";
+    :sex :Male ;
+    :child :Ben .
+
+:Ben a :Person ;
+    :name "Ben";
+    :sex :Male ;
+    :father :John .

@@ -1,0 +1,12 @@
+
+@prefix : <https://know.dev/> .
+
+:Olivia a :Person ;
+    :name "Olivia";
+    :sex :Female ;
+    :child :Elizabeth .
+
+:Elizabeth a :Person ;
+    :name "Elizabeth";
+    :sex :Female ;
+    :mother :Olivia .

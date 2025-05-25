@@ -1,0 +1,9 @@
+@prefix : <https://know.dev/> .
+
+:Erin a :Person ;
+    :name "Erin" ;
+    :knows :John .
+
+:John a :Person ;
+    :name "John" ;
+    :knows :Erin .
